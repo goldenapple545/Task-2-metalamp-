@@ -1,0 +1,27 @@
+{
+  "name": "task-2",
+  "version": "1.0.0",
+  "description": "For MetaLamp",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel src/index.pug --open",
+    "build": "parcel build src/index.pug -d docs --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldenapple545/UI-kit-Task-2-.git"
+  },
+  "keywords": [
+    "UIkit"
+  ],
+  "author": "jordj1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goldenapple545/UI-kit-Task-2-/issues"
+  },
+  "homepage": "https://github.com/goldenapple545/UI-kit-Task-2-#readme",
+  "devDependencies": {
+    "pug": "^3.0.2",
+    "sass": "^1.50.0"
+  }
+}
