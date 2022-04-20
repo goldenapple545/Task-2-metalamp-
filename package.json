@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/goldenapple545/UI-kit-Task-2-#readme",
   "devDependencies": {
+    "cssnano": "^5.1.7",
+    "postcss": "^8.4.12",
     "pug": "^3.0.2",
     "sass": "^1.50.0"
   }
