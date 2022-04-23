@@ -1,0 +1,151 @@
+@import "mixins";
+
+.colors__rectangle-2 {
+  @include rectangle(150px, 145px, #1F2041);
+}
+
+.colors__rectangle-21 {
+  @include rectangle(150px, 235px, rgba(31, 32, 65, 0.75));
+}
+
+.colors__rectangle-22 {
+  @include rectangle(149.74px, 324.56px, rgba(31, 32, 65, 0.5));
+}
+
+.colors__rectangle-23 {
+  @include rectangle(150px, 415px, rgba(31, 32, 65, 0.25));
+}
+
+.colors__rectangle-24 {
+  @include rectangle(150px, 505px, rgba(31, 32, 65, 0.05));
+}
+
+.colors__rectangle-25 {
+  @include rectangle(150px, 595px, #BC9CFF);
+}
+
+.colors__rectangle-26 {
+  @include rectangle(150px, 685px, #6FCF97);
+}
+
+
+.colors__rectangle-2-text {
+  /* Dark Shade 100% #1F2041 */
+  @include text(171px, 56px, 260px, 152px);
+}
+
+.colors__rectangle-21-text {
+  /* Dark Shade 75% #1F2041 */
+  @include text(161px, 56px, 260px, 242px);
+}
+
+.colors__rectangle-22-text {
+  /* Dark Shade 50% #1F2041 */
+  @include text($width: 162px, $height: 56px, $left: 260px, $top: 332px);
+}
+
+.colors__rectangle-23-text {
+  /* Dark Shade 25% #1F2041 */
+  @include text($width: 161px, $height: 56px, $left: 260px, $top: 422px);
+}
+
+.colors__rectangle-24-text {
+  /* Dark Shade 5% #1F2041 */
+  @include text($width: 149px, $height: 56px, $left: 260px, $top: 512px);
+}
+
+.colors__rectangle-25-text {
+  /* Purple #BC9CFF */
+  @include text($width: 91px, $height: 56px, $left: 260px, $top: 602px);
+}
+
+.colors__rectangle-26-text {
+  /* Green #6FCF97 */
+  @include text($width: 86px, $height: 56px, $left: 260px, $top: 692px);
+}
+
+.types__h1 {
+  @include text($width: 29px, $height: 30px, $left: 854px, $top: 145px);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: right;
+
+  /* Dark 25% */
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.types__widget-title {
+  @include text($width: 369px, $height: 59px, $left: 913px, $top: 145px);
+  line-height: 29px;
+}
+
+.types__h2 {
+  @include text($width: 27px, $height: 24px, $left: 856px, $top: 255px);
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: right;
+
+  /* Dark 25% */
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.types__title-inside-widget {
+  @include text($width: 312px, $height: 47px, $left: 913px, $top: 255px);
+  font-size: 19px;
+  line-height: 23px;
+}
+
+.types__h3 {
+  @include text($width: 17px, $height: 15px, $left: 866px, $top: 355px);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  text-align: right;
+  text-transform: uppercase;
+
+  /* Dark 25% */
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.types__label {
+  @include text($width: 186px, $height: 15px, $left: 913px, $top: 353px);
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  text-transform: uppercase;
+}
+
+.types__body {
+  @include text($width: 37px, $height: 24px, $left: 846px, $top: 418px);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  text-align: right;
+
+  /* Dark 25% */
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.types__body-text {
+  @include text($width: 301px, $height: 48px, $left: 913px, $top: 418px);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  /* Dark 75% */
+  color: rgba(31, 32, 65, 0.75);
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../../fonts/Montserrat-Regular.woff) format('woff');
+}

@@ -1,16 +1,75 @@
-.rectangle_2 {
-  /* Rectangle 2 */
+.colors__rectangle-2 {
   position: absolute;
   width: 70px;
   height: 70px;
   left: 150px;
   top: 145px;
-  /* Dark 100% */
   background: #1F2041;
   border-radius: 6px;
 }
 
-.rectangle_2_text {
+.colors__rectangle-21 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 150px;
+  top: 235px;
+  background: rgba(31, 32, 65, 0.75);
+  border-radius: 6px;
+}
+
+.colors__rectangle-22 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 149.74px;
+  top: 324.56px;
+  background: rgba(31, 32, 65, 0.5);
+  border-radius: 6px;
+}
+
+.colors__rectangle-23 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 150px;
+  top: 415px;
+  background: rgba(31, 32, 65, 0.25);
+  border-radius: 6px;
+}
+
+.colors__rectangle-24 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 150px;
+  top: 505px;
+  background: rgba(31, 32, 65, 0.05);
+  border-radius: 6px;
+}
+
+.colors__rectangle-25 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 150px;
+  top: 595px;
+  background: #BC9CFF;
+  border-radius: 6px;
+}
+
+.colors__rectangle-26 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 150px;
+  top: 685px;
+  background: #6FCF97;
+  border-radius: 6px;
+}
+
+.colors__rectangle-2-text {
+  /* Dark Shade 100% #1F2041 */
   /* Dark Shade 100% #1F2041 */
   position: absolute;
   width: 171px;
@@ -26,6 +85,314 @@
   align-items: center;
   /* Dark 100% */
   color: #1F2041;
+}
+
+.colors__rectangle-21-text {
+  /* Dark Shade 75% #1F2041 */
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 161px;
+  height: 56px;
+  left: 260px;
+  top: 242px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+}
+
+.colors__rectangle-22-text {
+  /* Dark Shade 50% #1F2041 */
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 162px;
+  height: 56px;
+  left: 260px;
+  top: 332px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+}
+
+.colors__rectangle-23-text {
+  /* Dark Shade 25% #1F2041 */
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 161px;
+  height: 56px;
+  left: 260px;
+  top: 422px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+}
+
+.colors__rectangle-24-text {
+  /* Dark Shade 5% #1F2041 */
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 149px;
+  height: 56px;
+  left: 260px;
+  top: 512px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+}
+
+.colors__rectangle-25-text {
+  /* Purple #BC9CFF */
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 91px;
+  height: 56px;
+  left: 260px;
+  top: 602px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+}
+
+.colors__rectangle-26-text {
+  /* Green #6FCF97 */
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 86px;
+  height: 56px;
+  left: 260px;
+  top: 692px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+}
+
+.types__h1 {
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 29px;
+  height: 30px;
+  left: 854px;
+  top: 145px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: right;
+  /* Dark 25% */
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.types__widget-title {
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 369px;
+  height: 59px;
+  left: 913px;
+  top: 145px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+  line-height: 29px;
+}
+
+.types__h2 {
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 27px;
+  height: 24px;
+  left: 856px;
+  top: 255px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: right;
+  /* Dark 25% */
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.types__title-inside-widget {
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 312px;
+  height: 47px;
+  left: 913px;
+  top: 255px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+  font-size: 19px;
+  line-height: 23px;
+}
+
+.types__h3 {
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 17px;
+  height: 15px;
+  left: 866px;
+  top: 355px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  text-align: right;
+  text-transform: uppercase;
+  /* Dark 25% */
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.types__label {
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 186px;
+  height: 15px;
+  left: 913px;
+  top: 353px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  text-transform: uppercase;
+}
+
+.types__body {
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 37px;
+  height: 24px;
+  left: 846px;
+  top: 418px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  text-align: right;
+  /* Dark 25% */
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.types__body-text {
+  /* Dark Shade 100% #1F2041 */
+  position: absolute;
+  width: 301px;
+  height: 48px;
+  left: 913px;
+  top: 418px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  /* Dark 100% */
+  color: #1F2041;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  /* Dark 75% */
+  color: rgba(31, 32, 65, 0.75);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/Montserrat-Regular.dad99bf3.woff) format("woff");
 }
 
 /*# sourceMappingURL=/colors-and-type-script.2e923b3e.css.map */
