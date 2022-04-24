@@ -184,16 +184,16 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../ui-kit/colors-and-type/scss/colors-and-type-style.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../ui-kit/form-elements/scss/form-elements-style.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../../../fonts/Montserrat-Regular.woff":[["Montserrat-Regular.dad99bf3.woff","../fonts/Montserrat-Regular.woff"],"../fonts/Montserrat-Regular.woff"],"_css_loader":"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../ui-kit/colors-and-type/colors-and-type-script.js":[function(require,module,exports) {
+},{"./../../../fonts/Montserrat-Regular.woff":[["Montserrat-Regular.dad99bf3.woff","../fonts/Montserrat-Regular.woff"],"../fonts/Montserrat-Regular.woff"],"./../../../fonts/Montserrat-Bold.woff":[["Montserrat-Bold.765c135b.woff","../fonts/Montserrat-Bold.woff"],"../fonts/Montserrat-Bold.woff"],"_css_loader":"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../ui-kit/form-elements/form-elements-script.js":[function(require,module,exports) {
 "use strict";
 
-require("./scss/colors-and-type-style.scss");
-},{"./scss/colors-and-type-style.scss":"../ui-kit/colors-and-type/scss/colors-and-type-style.scss"}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+require("./scss/form-elements-style.scss");
+},{"./scss/form-elements-style.scss":"../ui-kit/form-elements/scss/form-elements-style.scss"}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -397,5 +397,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","../ui-kit/colors-and-type/colors-and-type-script.js"], null)
-//# sourceMappingURL=/colors-and-type-script.2e923b3e.js.map
+},{}]},{},["../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","../ui-kit/form-elements/form-elements-script.js"], null)
+//# sourceMappingURL=/form-elements-script.4b15a5fd.js.map
