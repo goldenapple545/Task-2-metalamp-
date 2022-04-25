@@ -1,18 +1,7 @@
-@mixin text($width, $height, $left, $top) {
+@mixin text-position($width, $height, $left, $top) {
   position: absolute;
   width: $width;
   height: $height;
   left: $left;
   top: $top;
-
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  /* identical to box height */
-  text-transform: uppercase;
-
-  /* Dark 100% */
-  color: #1F2041;
 }
