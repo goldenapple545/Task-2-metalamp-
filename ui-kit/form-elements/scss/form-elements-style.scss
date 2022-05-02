@@ -2,30 +2,15 @@
 
 .inputs__text-1 {
   @include text-position($width: 80px, $height: 15px, $left: 141px, $top: 130px);
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  /* identical to box height */
-  text-transform: uppercase;
-
-  /* Dark 100% */
-  color: #1F2041;
+  @include text-bold-properties();
 }
 
 .inputs__text-01 {
   @include text-position($width: 57px, $height: 15px, $left: 403.74px, $top: 130px);
-  font-style: normal;
-  font-size: 12px;
-  line-height: 15px;
-  font-family: 'Montserrat';
-  font-weight: 400;
+  @include text-properties($font-size: 12px, $line-height: 15px, $color: rgba(31, 32, 65, 0.5));
+
   text-align: right;
   text-transform: uppercase;
-
-  /* Dark 50% */
-  color: rgba(31, 32, 65, 0.5);
 }
 
 .inputs__text-field_default {
@@ -35,10 +20,87 @@
   left: 141px;
   top: 163px;
 
-  background: #FFFFFF;
-  border: 1px solid rgba(31, 32, 65, 0.25);
-  box-sizing: border-box;
-  border-radius: 4px;
+  @include rectangle-properties();
+}
+
+.inputs__text-field_default::placeholder {
+  position: relative;
+  left: 15px;
+
+  @include text-properties();
+}
+
+.inputs__text-2 {
+  @include text-position($width: 72px, $height: 15px, $left: 141px, $top: 214.44px);
+  @include text-bold-properties();
+}
+
+.inputs__text-02 {
+  @include text-position($width: 96px, $height: 15px, $left: 364.74px, $top: 213.44px);
+  @include text-properties($font-size: 12px, $line-height: 15px, $color: rgba(31, 32, 65, 0.5));
+
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.inputs__text-field_hover {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 141px;
+  top: 247.44px;
+
+  @include rectangle-properties($border-color: rgba(31, 32, 65, 0.5));
+}
+
+.inputs__text-field_hover::placeholder {
+  position: relative;
+  left: 15px;
+
+  @include text-properties($line-height: 18px, $color: rgba(31, 32, 65, 0.75));
+}
+
+.inputs__text-3 {
+  @include text-position($width: 81px, $height: 15px, $left: 141px, $top: 298.44px);
+  @include text-bold-properties();
+}
+
+.inputs__dropdown {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 141px;
+  top: 331.44px;
+
+  @include rectangle-properties();
+}
+
+.inputs__dropdown::placeholder {
+  position: relative;
+  left: 15px;
+
+  @include text-properties($line-height: 18px, $color: rgba(31, 32, 65, 0.75));
+}
+
+.inputs__icon-1 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 476.74px;
+  top: 331px;
+
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Dark 50% */
+
+  color: rgba(31, 32, 65, 0.5);
 }
 
 @font-face {
@@ -59,4 +121,16 @@
   line-height: 15px;
   font-display: swap;
   src: url(../../../fonts/Montserrat-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+  local('MaterialIcons-Regular'),
+  url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+  url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+  url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
 }

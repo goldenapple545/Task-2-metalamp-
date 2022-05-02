@@ -5,3 +5,34 @@
   left: $left;
   top: $top;
 }
+
+@mixin text-properties($font-size: 14px, $line-height: 18px, $color: rgba(31, 32, 65, 0.25)) {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $font-size;
+  line-height: $line-height;
+  /* identical to box height, or 129% */
+
+  /* Dark 25% */
+  color: $color;
+}
+
+@mixin text-bold-properties($font-size: 12px, $line-height: 15px, $color: #1F2041, $text-transform: uppercase) {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $font-size;
+  line-height: $line-height;
+  text-transform: $text-transform;
+
+  color: $color;
+}
+
+@mixin rectangle-properties($background-color: #FFFFFF, $border-color: rgba(31, 32, 65, 0.25), $border-radius: 4px) {
+  background: $background-color;
+
+  border: 1px solid $border-color;
+  box-sizing: border-box;
+  border-radius: $border-radius;
+}
