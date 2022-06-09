@@ -1,5 +1,8 @@
 @import "mixins";
 
+$dark-blue: rgba(31, 32, 65, 0.5);
+$dark-blue-75: rgba(31, 32, 65, 0.75);
+
 .inputs__text-1 {
   @include text-position($width: 80px, $height: 15px, $left: 141px, $top: 130px);
   @include text-bold-properties();
@@ -7,7 +10,7 @@
 
 .inputs__text-01 {
   @include text-position($width: 57px, $height: 15px, $left: 403.74px, $top: 130px);
-  @include text-properties($font-size: 12px, $line-height: 15px, $color: rgba(31, 32, 65, 0.5));
+  @include text-properties($font-size: 12px, $line-height: 15px, $color: $dark-blue);
 
   text-align: right;
   text-transform: uppercase;
@@ -37,7 +40,7 @@
 
 .inputs__text-02 {
   @include text-position($width: 96px, $height: 15px, $left: 364.74px, $top: 213.44px);
-  @include text-properties($font-size: 12px, $line-height: 15px, $color: rgba(31, 32, 65, 0.5));
+  @include text-properties($font-size: 12px, $line-height: 15px, $color: $dark-blue);
 
   text-align: right;
   text-transform: uppercase;
@@ -50,14 +53,14 @@
   left: 141px;
   top: 247.44px;
 
-  @include rectangle-properties($border-color: rgba(31, 32, 65, 0.5));
+  @include rectangle-properties($border-color: $dark-blue);
 }
 
 .inputs__text-field_hover::placeholder {
   position: relative;
   left: 15px;
 
-  @include text-properties($line-height: 18px, $color: rgba(31, 32, 65, 0.75));
+  @include text-properties($line-height: 18px, $color: $dark-blue-75);
 }
 
 .inputs__text-3 {
@@ -79,7 +82,29 @@
   position: relative;
   left: 15px;
 
-  @include text-properties($line-height: 18px, $color: rgba(31, 32, 65, 0.75));
+  @include text-properties($line-height: 18px, $color: $dark-blue-75);
+}
+
+.inputs__text-4 {
+  @include text-position($width: 130px, $height: 15px, $left: 141px, $top: 385px);
+  @include text-bold-properties();
+}
+
+.inputs__masked-text-field {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 141px;
+  top: 418px;
+
+  @include rectangle-properties();
+}
+
+.inputs__masked-text-field::placeholder {
+  position: relative;
+  left: 15px;
+
+  @include text-properties();
 }
 
 .inputs__icon-1 {
@@ -100,7 +125,7 @@
 
   /* Dark 50% */
 
-  color: rgba(31, 32, 65, 0.5);
+  color: $dark-blue;
 }
 
 @font-face {
